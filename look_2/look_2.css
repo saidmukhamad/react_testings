@@ -9,13 +9,19 @@ a {
     color: black;
 }
 
-
+hr {
+    
+    border: 15px dashed #000;
+    transform: rotate(10deg); 
+    margin-top: 10%; margin-bottom: 10%;
+}
 .center {
     text-align: center;
 }
 
 .navbar {
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%; 
 
