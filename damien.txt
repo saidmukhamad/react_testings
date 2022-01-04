@@ -1,0 +1,11 @@
+https://www.whitecube.com/artists/artist/damien_hirst
+https://love2dev.com/blog/html-horizontal-line/
+https://gagosian.com/artists/damien-hirst/
+https://www.damienhirst.com/news/2016/last-supper-at-national-gallery-washington
+https://dev.to/nickytonline/frontend-developer-resources-2022-4cp2
+https://www.html5rocks.com/en/tutorials/webcomponents/customelements/
+https://css-tricks.com/archives/
+https://css-tricks.com/the-current-state-of-styling-scrollbars/
+https://yaireo.github.io/fakescroll/
+https://css-tricks.com/almanac/properties/s/scrollbar/
+https://ishadeed.com/article/custom-scrollbars-css/
