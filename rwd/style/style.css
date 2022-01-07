@@ -87,16 +87,68 @@ hr {
        top: -25px;
     } 
     .responsive {
-        background-color: violet;
-        padding: 12em;
+        background-color:rgb(99, 109, 129);
+        min-height: 300px;
+        padding-top: 5em;
+        padding-bottom: 5em;
         clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+       
+
+        font-family: 'Be Vietnam Pro', sans-serif;
       
     }
-    .responsive img {
-        width: 100px;
-        height: 100px;
+    .responsive header {
+        font-size: 2.6em;
+
     }
+    .responsive_wrapped {
+        display: flexbox;
+        flex-flow: column;
+        margin-top: 10%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .responsive_wrapped hr {
+        border-color: thistle;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .responsive_wrapped figure {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .responsive_wrapped img {
+        position: relative;
+        width: 25%;
+        height: 45%;
+        left: -6%;
+        
+    }
+    .responsive_wrapped article {
+        font-weight:400;
+        font-size: 2em;
+        margin-bottom: 4%;
+    }
+    .responsive_wrapped button {
+        position: relative;
+        border: 1px solid;
+        border-color: black;
+        background-color: rgb(99, 109, 129) ;
+        border-radius: 12px;
+        height: 12%;
+        width: 50%;
+        left: 25%;
+        margin-bottom: 22%;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight:600;
+        font-size: large;
+    }
+
 }
+
 
 /* Desktops */
 @media all and (min-width: 1100px) {

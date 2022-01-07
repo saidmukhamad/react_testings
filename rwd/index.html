@@ -8,7 +8,9 @@
     <title>Responsive Web Design tests</title>
 
     <style>
-        @import url('style.css');
+        html {
+            background-image: url(img/triangle_bg.png); background-repeat: repeat;
+        }
     </style>
 </head>
 <body  style = "width: 100%; margin: 0 auto; background-image: url(img/triangle_bg.png); background-repeat: repeat;">  
@@ -52,26 +54,18 @@
     <main>
         
         <article class = "responsive">
-            
-            <header>
-                Responsive Web Design 
-                <div>
-                    <p>
-                        <p>with</p>
-                        html5
-                    </p>
-                </div>
-
-                <div>
-                    <p>
-                        <p>and</p>
-                        CSS
-                    </p>
-                </div>
-            </header>
-            <section >
-                <img src="img/ResponsiveWebDesign_BenFrain_Cover_700.jpg" alt="">                
+            <div class="responsive_wrapped">
                 
+                <header>
+                    Responsive Web Design with HTML5 and CSS
+                </header>
+
+                <hr>
+                
+                <figure>
+                    <img src="img/ResponsiveWebDesign_BenFrain_Cover_700.jpg" alt="">                
+                </figure>
+                    
                 <article>
                     Since 2012, ’ Responsive Web Design with HTML5 and CSS ’ by Ben Frain , has been Packt publishing’s best-selling book on Responsive Web Design. Now there's a completely updated 3rd Edition for 2020 and beyond!
                 </article>
@@ -79,8 +73,10 @@
                 <button>
                     What's new in the 3rd Edition?
                 </button>
+            </div>
+
            
-            </section>
+           
         </article>
 
 
