@@ -2,7 +2,7 @@
   "name": "react_1",
   "version": "1.0.0",
   "description": "This is my tests and other things",
-  "main": "index.js",
+  "main": "rwd/index.html",
   "directories": {
     "test": "test"
   },
