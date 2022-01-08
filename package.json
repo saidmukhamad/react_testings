@@ -18,8 +18,8 @@
   "bugs": {
     "url": "https://github.com/Flaerq/react_1/issues"
   },
-  "homepage": "https://github.com/Flaerq/react_1/rwd/index.html",
+  "homepage": "https://flaerq.github.io/react_testings/",
   "dependencies": {
     "express": "^4.17.2"
   }
-}
+}   
